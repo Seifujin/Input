@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+  </head>
+  <body>
+
+
+
+
+
+    <form method="post" action="Test.php">
+
+      Sexe :
+       <input type="radio" name="sexe" value=" M " /> M
+       <input type="radio" name="sexe" value=" F " /> F
+
+    <div class="deroul">
+
+         Vous êtes : <select name="profil">
+                    <option value="parti">Un étudiant</option>
+                    <option value="profe">Un salarié</option>
+                    <option value="insti">Un stagiaire</option>
+                   </select>
+
+  </div>
+
+
+      <p>
+      <br><label for="Nom">Nom</label> : <input type="text" name="Nom" id="Nom" size ="25" maxlenght="15"/></br>
+      </p>
+
+      <p>
+        <br><label for="Prénom">Prénom</label> : <input type="text" name="Prénom" id="Prénom" size ="25" maxlenght="15"/></br>
+      </p>
+
+      <p>
+        <br><label for="âge">Votre âge</label> : <input type="number" name="âge" id="âge" min="5" max="99"/></br>
+      </p>
+
+      <p>
+       <br><label for="pseudo">Pseudo</label> : <input type="text" name="pseudo" id="pseudo" size="25" maxlenght="15"/></br>
+     </p>
+
+      <p>
+       <br><label for="mail">Courriel</label> : <input type="email" name="mail" id="mail" size="25" maxlenght="15"/></br>
+      </p>
+
+       <p>
+       <br><label for="mdp">Mot de passe</label> : <input type="password" name="mdp" id="mdp" size="25" maxlenght="15"/></br>
+      </p>
+
+      <p>
+      <br><label for="mdp1">Confirmer votre mot de passe</label> : <input type="password" name="mdp1" id="mdp1" size="25" maxlenght="15"/></br>
+     </p>
+
+     <div class="condi">
+         <input type="checkbox" name="conditions" value="ok"/> J'accepte les conditions
+         <input type="checkbox" name="conditions" value="ok"/> S'inscrire à la newsletter
+    </div>
+
+
+       <div class="button">
+          <br><input type="reset" value="Annuler"/> <input type="submit" value="Valider"/></br>
+      </div>
+
+
+      <div class="commentaire">
+
+        Commentaire :<br />
+        <textarea name="message" rows="8" cols="40">Vous avez le champ libre...</textarea>
+     </div>
+
+
+
+    </form>
+
+
+
+
+
+
+  </body>
+</html>

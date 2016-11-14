@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+width: 100%;
+height: 100%;
+
+}
+
+
+
+form{
+  margin: auto;
+  width:  60vw;
+  height: 50vh;
+  border: 1px solid black;
+  padding: 2em;
+  border-radius: 1em;
+  background-color: grey;
+}
+
+label{
+
+  display: inline-block;
+  text-align: center;
+  width: 90px;
+}
+
+
+.deroul{
+   
+  float: left;
+  margin-top: -4%;
+  margin-left: 10%;
+  width: 5vw;
+  position: absolute;
+}
+
+
+.condi{
+
+float: right;
+margin-top: -5%;
+
+}
+
+.commentaire{
+
+  float: right;
+  margin-top: -33%;
+}
+
+.button{
+
+float: right;
+
+}
